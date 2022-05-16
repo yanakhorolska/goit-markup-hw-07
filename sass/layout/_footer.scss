@@ -1,0 +1,113 @@
+﻿.footer {
+    background-color: var(--footer-bg-color);
+    background-size: cover;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer__header {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-contacts {
+    margin-right: 70px;
+}
+.logo__light-span {
+    color: #ffffff;
+}
+.footer-contacts__address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+    margin-bottom: 9px;
+    margin-top: 20px;
+}
+
+.footer-contacts__link {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer-contacts__link--top {
+    margin-bottom: 9px;
+}
+
+.footer-socials {
+    margin-right: 93px;
+}
+
+.footer-socials__item:not(:last-child) {
+    margin-right: 10px;
+}
+.footer-socials__icon {
+    width: 20px;
+    height: 20px;
+}
+.footer-socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43444D;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    fill: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-socials__link:hover,
+.footer-socials__link:focus {
+    background-color: var(--brand-color);
+}
+.footer-subscribe {
+    flex-grow: 1;
+}
+.footer-subscribe__blocks {
+    display: flex;
+    align-items: center;
+}
+
+.footer-subscribe__input {
+    width: 100%;
+    margin-right: 7px;
+    padding: 15px 16px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.footer-subscribe__input:focus {
+    outline: 1px solid white;
+}
+.footer-subscribe__input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-subscribe__button {
+    padding: 10px 29px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-subscribe__icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
