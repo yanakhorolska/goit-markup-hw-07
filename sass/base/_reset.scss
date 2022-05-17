@@ -1,26 +1,4 @@
 ﻿
-body {
-    font-family: Roboto, sans-serif;
-    background-color: #ffffff;
-    color: var(--dark-font-color);
-}
-li {
-    list-style: none;
-}
-.second-title {
-
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-}
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 h1,
 h2,
 h3,
@@ -34,40 +12,4 @@ ul,
 ol {
     padding-left: 0;
     margin: 0;
-}
-button {
-    cursor: pointer;
-}
-img {
-    display: block;
-}
-.flex {
-    display: flex;
-}
-.flex-center-between {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.flex-center {
-    display: flex;
-    align-items: center;
-}
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-
-.visually-hidden { 
-    position: absolute; 
-    width: 1px; 
-    height: 1px; 
-    margin: -1px; 
-    border: 0; 
-    padding: 0; 
-    white-space: nowrap; 
-    clip-path: inset(100%); 
-    clip: rect(0 0 0 0); 
-    overflow: hidden; 
 }

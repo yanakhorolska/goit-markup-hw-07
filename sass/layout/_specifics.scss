@@ -1,34 +1,72 @@
 ﻿.specifics {
     padding-bottom: 94px;
+    &__list {
+        margin-left: -30px;
+    }
+    &__item {
+        list-style: none;
+        width: calc(100% / 3 - 30px);
+        margin-left: 30px;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70px;
+        font-size: 14px;
+        line-height: 1.14;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+    &__link {
+        height: 294px;
+        position: relative;
+        display: block;
+        
+    }
 }
-.specifics__list {
-    margin-left: -30px;
-}
-.specifics__item {
-    list-style: none;
-    width: calc(100% / 3 - 30px);
-    margin-left: 30px;
-}
-.specifics__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    font-size: 14px;
-    line-height: 1.14;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: rgba(47, 48, 58, 0.8);
-}
-.specifics__link {
-    height: 294px;
-    position: relative;
-    display: block;
+
+
+
+
+// .specifics {
+//     padding-bottom: 94px;
+// }
+// .specifics__list {
+//     margin-left: -30px;
+// }
+// .specifics__item {
+//     list-style: none;
+//     width: calc(100% / 3 - 30px);
+//     margin-left: 30px;
+// }
+// .specifics__title {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 70px;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     font-weight: 700;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//     background-color: rgba(47, 48, 58, 0.8);
+// }
+// .specifics__link {
+//     height: 294px;
+//     position: relative;
+//     display: block;
     
-}
+// }

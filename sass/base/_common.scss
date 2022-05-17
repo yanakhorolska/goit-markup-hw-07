@@ -1,0 +1,32 @@
+﻿body {
+    font-family: Roboto, sans-serif;
+    background-color: #ffffff;
+    color: var(--dark-font-color);
+}
+li {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+.flex-center-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
